@@ -6,9 +6,9 @@ import { Home, About, Contact, Navigation } from './components';
 const App = () => (
   <div>
     <Navigation />
-    <Route exact path='/'>Home</Route>
-    <Route path='/about'>About</Route>
-    <Route path='contact'>Contact</Route>
+    <Route exact path='/'>Home Content</Route>
+    <Route path='/about'>About Content</Route>
+    <Route path='/contact'>Contact Content</Route>
   </div>
 );
 
